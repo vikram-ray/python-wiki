@@ -1,1 +1,2 @@
-from .factory import *
+# from .factory import *
+from .singleton import *

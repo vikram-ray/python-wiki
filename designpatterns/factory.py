@@ -1,8 +1,10 @@
 """
 This is a creational design pattern
 The creational of class instance is handled by a separate class.
-In this way, the other codebase/clients/users of those classes are not tightly coupled 
-and dont have to deal with how to get an instance of class
+Advantage:
+  1. In this way, the other codebase/clients/users of those classes are not tightly coupled
+  2. The other modules dont have to deal with how to create an instance of class
+  3. New changes/features can easily be done on factory class without interupting other modules
 """
 
 # -------------------------------- Without factory pattern --------------------------------------
@@ -120,4 +122,5 @@ vehicle.about()
 
 """
 As we can see, we just had to update our factory and all 10 module is unchanged;
+The code is decoupled & other modules need not to worry about implementation
 """
