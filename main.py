@@ -1,1 +1,1 @@
-print("hello");
+from designpatterns import main
